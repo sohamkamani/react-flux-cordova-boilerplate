@@ -1,1 +1,4 @@
-module.exports = (a) => a + 1;
+
+module.exports = () => {
+  emitter.emit('done', () => { console.log('myfunc')});
+} ;
