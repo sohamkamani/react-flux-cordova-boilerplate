@@ -9,7 +9,7 @@ var DownButton = React.createClass({
 
   render: function() {
     return (
-      <div onClick={this.handleClick} className="up-down-button">DOWN</div>
+      <div onClick={this.handleClick} className="up-down-button">down</div>
     );
   }
 

@@ -26,3 +26,10 @@ html, body {
   margin: auto;
   text-align: center;
 }
+.hidden {
+  display: none;
+}
+
+.app-bar {
+  background-color: #DD0;
+}

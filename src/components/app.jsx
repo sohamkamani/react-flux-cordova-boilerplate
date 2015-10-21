@@ -7,6 +7,7 @@ global.emitter = new events.EventEmitter();
 import Header from './header.jsx';
 import Content from './content.jsx';
 import Footer from './footer.jsx';
+import AppBar from 'material-ui/lib/app-bar';
 
 
 var App = React.createClass({
@@ -37,6 +38,7 @@ var App = React.createClass({
 
     return (
       <div className="app">
+        <AppBar title="private buy" iconClassNameLeft="hidden" style={{backgroundColor: 'red'}} />
         <Header headerHeight={this.state.headerHeight}/>
         <Content/>
         <Footer headerHeight={this.state.headerHeight}/>
