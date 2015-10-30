@@ -1,32 +1,27 @@
+'use strict';
+
 import React from 'react';
 
 import events from 'events';
 
 global.emitter = new events.EventEmitter();
+let emitter = global.emmiter;
 
 import Header from './header.jsx';
 import Content from './content.jsx';
 import Footer from './footer.jsx';
-import AppBar from 'material-ui/lib/app-bar';
-
 
 var App = React.createClass({
 
-  componentDidMount : function(){
-    var self = this;
-    emitter
-      .on('up', function() {
-        self.setState({
-          headerHeight: self.state.headerHeight - 1
-        });
-      });
+  componentDidMount: function() {
+    // var self = this;
+    emitter.on('up', function() {
+      location.hash = '#/about';
+    });
 
-    emitter
-      .on('down', function() {
-        self.setState({
-          headerHeight: self.state.headerHeight + 1
-        });
-      });
+    emitter.on('down', function() {
+      location.hash = '#/users';
+    });
   },
 
   getInitialState: function() {
@@ -38,7 +33,6 @@ var App = React.createClass({
 
     return (
       <div className="app">
-        <AppBar title="private buy" iconClassNameLeft="hidden" style={{backgroundColor: 'red'}} />
         <Header headerHeight={this.state.headerHeight}/>
         <Content/>
         <Footer headerHeight={this.state.headerHeight}/>
@@ -47,7 +41,5 @@ var App = React.createClass({
   }
 
 });
-
-
 
 module.exports = App;
