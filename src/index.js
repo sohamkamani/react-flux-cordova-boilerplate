@@ -8,6 +8,8 @@ import Route1 from './components/route1.jsx';
 import Route2 from './components/route2.jsx';
 import AppBar from 'material-ui/lib/app-bar';
 import LeftNav from 'material-ui/lib/left-nav';
+
+import FluxApp from './components/flux-app/app.jsx';
 // import MenuItem from 'material-ui/lib/menus/menu-item';
 
 var router = (
@@ -21,16 +23,19 @@ var router = (
 
 var Nav = (
   <LeftNav ref="leftNavChildren" docked={false}/>
-)
-
-var mainApp = (
-  <div>
-    <AppBar title="private buy" iconClassNameLeft="hidden" style={{
-      backgroundColor: 'red'
-    }}/>
-    {Nav}
-    {router}
-  </div>
 );
 
+// var mainApp = (
+//   <div>
+//     <AppBar title="private buy" iconClassNameLeft="hidden" style={{
+//       backgroundColor: 'red'
+//     }}/>
+//     {Nav}
+//     {router}
+//   </div>
+// );
+
+var mainApp = (
+  <FluxApp />
+);
 ReactDom.render(mainApp, document.getElementById('app'));
