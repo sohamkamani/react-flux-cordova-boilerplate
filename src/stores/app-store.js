@@ -40,6 +40,10 @@ AppDispatcher.register(function(payload) {
       loadData(action.text);
       break;
 
+    case 'RESET_TEXT':
+      loadData('');
+      break;  
+
     default:
       return true;
   }

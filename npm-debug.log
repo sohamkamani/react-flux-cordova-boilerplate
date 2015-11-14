@@ -1,9 +1,5 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '--save',
-1 verbose cli   'object-assign' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'monadify' ]
 2 info using npm@2.10.1
 3 info using node@v0.12.4
 4 verbose install initial load of /Users/sohamchetan/Documents/experiments/cordova-sample/package.json
@@ -26,168 +22,328 @@
 21 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/less/package.json
 22 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/less-loader/package.json
 23 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/material-ui/package.json
-24 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react/package.json
-25 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-dom/package.json
-26 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-facebook-login/package.json
-27 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-router/package.json
-28 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-tap-event-plugin/package.json
-29 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/style-loader/package.json
-30 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/vinyl-buffer/package.json
-31 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/vinyl-source-stream/package.json
-32 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/webpack/package.json
-33 info package.json less-loader@2.2.1 No license field.
-34 info package.json react-tap-event-plugin@0.1.8 No license field.
-35 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/package.json
-36 silly cache add args [ 'object-assign', null ]
-37 verbose cache add spec object-assign
-38 silly cache add parsed spec { raw: 'object-assign',
-38 silly cache add   scope: null,
-38 silly cache add   name: 'object-assign',
-38 silly cache add   rawSpec: '',
-38 silly cache add   spec: '*',
-38 silly cache add   type: 'range' }
-39 silly addNamed object-assign@*
-40 verbose addNamed "*" is a valid semver range for object-assign
-41 silly addNameRange { name: 'object-assign', range: '*', hasData: false }
-42 silly mapToRegistry name object-assign
-43 silly mapToRegistry using default registry
-44 silly mapToRegistry registry https://registry.npmjs.org/
-45 silly mapToRegistry uri https://registry.npmjs.org/object-assign
-46 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
-47 verbose request uri https://registry.npmjs.org/object-assign
-48 verbose request no auth needed
-49 info attempt registry request try #1 at 2:47:58 PM
-50 verbose request using bearer token for auth
-51 verbose request id 98ea103da6d383ff
-52 verbose etag "637E3HK1HW04QPOIQATJZU8ID"
-53 http request GET https://registry.npmjs.org/object-assign
-54 http 200 https://registry.npmjs.org/object-assign
+24 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign/package.json
+25 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react/package.json
+26 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-dom/package.json
+27 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-facebook-login/package.json
+28 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-router/package.json
+29 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/react-tap-event-plugin/package.json
+30 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/style-loader/package.json
+31 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/vinyl-buffer/package.json
+32 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/vinyl-source-stream/package.json
+33 verbose installManyTop reading scoped package data from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/webpack/package.json
+34 info package.json less-loader@2.2.1 No license field.
+35 info package.json react-tap-event-plugin@0.1.8 No license field.
+36 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/package.json
+37 silly cache add args [ 'monadify', null ]
+38 verbose cache add spec monadify
+39 silly cache add parsed spec { raw: 'monadify',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'monadify',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: '*',
+39 silly cache add   type: 'range' }
+40 silly addNamed monadify@*
+41 verbose addNamed "*" is a valid semver range for monadify
+42 silly addNameRange { name: 'monadify', range: '*', hasData: false }
+43 silly mapToRegistry name monadify
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/monadify
+47 verbose addNameRange registry:https://registry.npmjs.org/monadify not in flight; fetching
+48 verbose request uri https://registry.npmjs.org/monadify
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 10:07:00 PM
+51 verbose request using bearer token for auth
+52 verbose request id aa6e855615a515b5
+53 http request GET https://registry.npmjs.org/monadify
+54 http 200 https://registry.npmjs.org/monadify
 55 silly get cb [ 200,
 55 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-55 silly get     etag: '"9X5J81STMG1EY3P0PGJF4S0A2"',
+55 silly get     etag: '"52Z4I7RKFR6GEYJ9EQ76SRB44"',
 55 silly get     'content-type': 'application/json',
 55 silly get     'cache-control': 'max-age=60',
-55 silly get     'content-length': '19881',
+55 silly get     'content-length': '8292',
 55 silly get     'accept-ranges': 'bytes',
-55 silly get     date: 'Tue, 03 Nov 2015 09:18:00 GMT',
+55 silly get     date: 'Tue, 03 Nov 2015 16:37:00 GMT',
 55 silly get     via: '1.1 varnish',
 55 silly get     connection: 'keep-alive',
-55 silly get     'x-served-by': 'cache-sin6923-SIN',
+55 silly get     'x-served-by': 'cache-sin6927-SIN',
 55 silly get     'x-cache': 'MISS',
 55 silly get     'x-cache-hits': '0',
-55 silly get     'x-timer': 'S1446542280.476351,VS0,VE433',
+55 silly get     'x-timer': 'S1446568620.626912,VS0,VE262',
 55 silly get     vary: 'Accept' } ]
-56 verbose get saving object-assign to /Users/sohamchetan/.npm/registry.npmjs.org/object-assign/.cache.json
-57 silly addNameRange number 2 { name: 'object-assign', range: '*', hasData: true }
-58 silly addNameRange versions [ 'object-assign',
-58 silly addNameRange   [ '0.1.0',
-58 silly addNameRange     '0.1.1',
-58 silly addNameRange     '0.1.2',
-58 silly addNameRange     '0.2.0',
-58 silly addNameRange     '0.2.1',
-58 silly addNameRange     '0.2.2',
-58 silly addNameRange     '0.3.0',
-58 silly addNameRange     '0.3.1',
-58 silly addNameRange     '0.4.0',
-58 silly addNameRange     '1.0.0',
-58 silly addNameRange     '2.0.0',
-58 silly addNameRange     '3.0.0',
-58 silly addNameRange     '2.1.1',
-58 silly addNameRange     '4.0.0',
-58 silly addNameRange     '4.0.1' ] ]
-59 silly addNamed object-assign@4.0.1
-60 verbose addNamed "4.0.1" is a plain semver version for object-assign
-61 silly cache afterAdd object-assign@4.0.1
-62 verbose afterAdd /Users/sohamchetan/.npm/object-assign/4.0.1/package/package.json not in flight; writing
-63 verbose afterAdd /Users/sohamchetan/.npm/object-assign/4.0.1/package/package.json written
-64 silly install resolved [ { name: 'object-assign',
-64 silly install resolved     version: '4.0.1',
-64 silly install resolved     description: 'ES6 Object.assign() ponyfill',
-64 silly install resolved     license: 'MIT',
+56 verbose get saving monadify to /Users/sohamchetan/.npm/registry.npmjs.org/monadify/.cache.json
+57 silly addNameRange number 2 { name: 'monadify', range: '*', hasData: true }
+58 silly addNameRange versions [ 'monadify', [ '0.3.0', '0.3.1', '0.3.2' ] ]
+59 silly addNamed monadify@0.3.2
+60 verbose addNamed "0.3.2" is a plain semver version for monadify
+61 silly cache afterAdd monadify@0.3.2
+62 verbose afterAdd /Users/sohamchetan/.npm/monadify/0.3.2/package/package.json not in flight; writing
+63 verbose afterAdd /Users/sohamchetan/.npm/monadify/0.3.2/package/package.json written
+64 silly install resolved [ { name: 'monadify',
+64 silly install resolved     version: '0.3.2',
+64 silly install resolved     description: 'Make your javascript code cleaner and more expressive with the power of monads and functional programming.',
+64 silly install resolved     main: 'index.js',
+64 silly install resolved     scripts: { test: 'mocha test.js' },
 64 silly install resolved     repository:
 64 silly install resolved      { type: 'git',
-64 silly install resolved        url: 'git+https://github.com/sindresorhus/object-assign.git' },
-64 silly install resolved     author:
-64 silly install resolved      { name: 'Sindre Sorhus',
-64 silly install resolved        email: 'sindresorhus@gmail.com',
-64 silly install resolved        url: 'http://sindresorhus.com' },
-64 silly install resolved     engines: { node: '>=0.10.0' },
-64 silly install resolved     scripts: { test: 'xo && mocha', bench: 'matcha bench.js' },
-64 silly install resolved     files: [ 'index.js' ],
+64 silly install resolved        url: 'git+https://github.com/sohamkamani/Monadify.git' },
+64 silly install resolved     maintainers: [ [Object] ],
+64 silly install resolved     engines: { node: '>=0.12.4' },
 64 silly install resolved     keywords:
-64 silly install resolved      [ 'object',
-64 silly install resolved        'assign',
-64 silly install resolved        'extend',
-64 silly install resolved        'properties',
-64 silly install resolved        'es6',
-64 silly install resolved        'ecmascript',
-64 silly install resolved        'harmony',
-64 silly install resolved        'ponyfill',
-64 silly install resolved        'prollyfill',
-64 silly install resolved        'polyfill',
-64 silly install resolved        'shim',
-64 silly install resolved        'browser' ],
-64 silly install resolved     devDependencies: { lodash: '^3.10.1', matcha: '^0.6.0', mocha: '*', xo: '*' },
-64 silly install resolved     xo: { envs: [Object] },
-64 silly install resolved     readme: '# object-assign [![Build Status](https://travis-ci.org/sindresorhus/object-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/object-assign)\n\n> ES6 [`Object.assign()`](http://www.2ality.com/2014/01/object-assign.html) ponyfill\n\n> Ponyfill: A polyfill that doesn\'t overwrite the native method\n\n\n## Install\n\n```sh\n$ npm install --save object-assign\n```\n\n\n## Usage\n\n```js\nvar objectAssign = require(\'object-assign\');\n\nobjectAssign({foo: 0}, {bar: 1});\n//=> {foo: 0, bar: 1}\n\n// multiple sources\nobjectAssign({foo: 0}, {bar: 1}, {baz: 2});\n//=> {foo: 0, bar: 1, baz: 2}\n\n// overwrites equal keys\nobjectAssign({foo: 0}, {foo: 1}, {foo: 2});\n//=> {foo: 2}\n\n// ignores null and undefined sources\nobjectAssign({foo: 0}, null, {bar: 1}, undefined);\n//=> {foo: 0, bar: 1}\n```\n\n\n## API\n\n### objectAssign(target, source, [source, ...])\n\nAssigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.\n\n\n## Resources\n\n- [ES6 spec - Object.assign](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.assign)\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
-64 silly install resolved     readmeFilename: 'readme.md',
-64 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
-64 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign#readme',
-64 silly install resolved     _id: 'object-assign@4.0.1',
-64 silly install resolved     _shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
-64 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz',
-64 silly install resolved     _from: 'object-assign@*' } ]
-65 info install object-assign@4.0.1 into /Users/sohamchetan/Documents/experiments/cordova-sample
-66 info installOne object-assign@4.0.1
-67 verbose installOne of object-assign to /Users/sohamchetan/Documents/experiments/cordova-sample not in flight; installing
-68 verbose lock using /Users/sohamchetan/.npm/_locks/object-assign-d3003c7d2f46babd.lock for /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-69 silly install write writing object-assign 4.0.1 to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-70 verbose unbuild node_modules/object-assign
-71 silly gentlyRm /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign is being purged from base /Users/sohamchetan/Documents/experiments/cordova-sample
-72 verbose gentlyRm don't care about contents; nuking /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-73 verbose tar unpack /Users/sohamchetan/.npm/object-assign/4.0.1/package.tgz
-74 verbose tar unpacking to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-75 silly gentlyRm /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign is being purged
-76 verbose gentlyRm don't care about contents; nuking /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
+64 silly install resolved      [ 'monads',
+64 silly install resolved        'monad',
+64 silly install resolved        'function',
+64 silly install resolved        'functional',
+64 silly install resolved        'bind',
+64 silly install resolved        'chain',
+64 silly install resolved        'apply',
+64 silly install resolved        'send',
+64 silly install resolved        'chaining' ],
+64 silly install resolved     devDependencies:
+64 silly install resolved      { assert: '^1.3.0',
+64 silly install resolved        chai: '^3.4.0',
+64 silly install resolved        coveralls: '^2.11.2',
+64 silly install resolved        matcha: '^0.6.0',
+64 silly install resolved        mocha: '*',
+64 silly install resolved        nyc: '^3.0.0',
+64 silly install resolved        semver: '^4.3.3' },
+64 silly install resolved     author: { name: 'Soham Kamani' },
+64 silly install resolved     license: 'MIT',
+64 silly install resolved     dependencies: { clone: '^1.0.2' },
+64 silly install resolved     readme: '# Monadify\n\nMake your javascript code cleaner and more expressive with the power of monads and functional programming.\n\n## Features\n- Makes your code more expressive by using a form of function chaining, instead of wrapping the input inside multiple function calls.\n- *Fail the way you want*, by passing custom error handling functions so that you don\'t have to abuse ```try``` and ```catch``` statements.\n- *Does not mutate objects*, creates a new cloned object on each instantiation, to prevent bug spewing mutations on the original object.\n\n## Install\n\n```sh\n$ npm install --save monadify\n```\n\n## Usage\n\n```javascript\nvar Monadify = require(\'monadify\'),\n  n = 1;\n\nfunction add(n){\n  return n + 1;\n}\n\n//The old way\nconsole.log(add(add(add(n))));\n//=> 4\n\n//With Monadify\nvar nMonad = Monadify(n)\n  .bind(add)\n  .bind(add)\n  .bind(add)\n  .send(console.log);\n//=> 4\n\n//To return the result\nvar result = nMonad.apply();\nconsole.log(result);\n//=> 4\n\n\n```\n\n## Documentation\n- [Constructor](#constructor)\n- [bind](#bind)\n- [send](#send)\n- [apply](#apply)\n\n<a name="constructor"/>\n### Monadify(input, [errorHandler])\nReturns a mutation (monad) of the ```input``` argument. Optional ```errorHandler``` function, which gets called if an error is thrown somewhere down the function chain.\n#### Arguments\n- ```input``` - The input for the monad. Objects given as input are cloned, to prevent mutation.\n- ```errorHandler(error)``` - Callback function to handle error thrown anywhere in the function chain.\n\n#### Examples\n```javascript\nvar nMonad = Monadify(1);\n\nvar obj = {},\n objMonad = Monadify(obj);\n\n//Objects passed to the constructor are cloned, which means any changes applied to \'obj\' are not passed on to objMonad.\nobj.a = \'a\';\nobjMonad.send(console.log);\n//=> {}\n\n```\n#### Error handling\nDefaults to ```throw new Error(e);```. Calls the ```errorHandler``` function, if present.\n```js\nvar nMonad = Monadify(1, console.log);\n// Logs any errors to the console, instead of throwing an error.\n\nvar notAFunction = null,\n\n  identity = function(n){\n    return n;\n  };\n\nnMonad.bind(identity)\n  .bind(notAFunction)\n  .bind(identity);\n\n//=> [TypeError: object is not a function]\n\n```\n<a name="bind"/>\n### bind(bindingFunction)\nbinds the given function to the current state of the input. Mutates the input into the returned value of ```bindingFunction```.\n#### Arguments\n- ```bindingFunction(input)``` - Function to be bound to the current state of the input.\n\n#### Examples\n```js\nvar nMonad = Monadify(2);\n\nnMonad.bind( n => n*3);\n//current state of nMonad is 6\nnMonad.send(console.log);\n//=> 6\n\n//Monads bound to console.log will subsequently return undefined, since the console.log function has no return value\nnMonad.bind(console.log);\n//=> 6\n// current state of nMonad is undefined\nnMonad.send(console.log);\n//=> undefined\n```\n<a name="send"/>\n### send(sentToFunction)\nsends the current state of input to the given function. Does not affect or mutate the input, and retains input state before sending to ```sentToFunction```.\n#### Arguments\n- ```sentToFunction(input)``` - Function to which the current state of input is passed as an argument. Return value is disregarded.\n\n#### Examples\n```js\nvar nMonad = Monadify(2);\n\nnMonad.send( n => n*3);\n//current state of nMonad is still 2\nnMonad.send(console.log);\n//=> 2\n\n//Monads bound to console.log will subsequently return undefined, since the console.log function has no return value\nnMonad.send(console.log);\n//=> 2\n// current state of nMonad is 2\nnMonad.send(console.log);\n//=> undefined\n```\n\n<a name="apply"/>\n### apply()\nReturns the current state of input.\n\n#### Examples\n```js\nvar nMonad = Monadify(2);\nnMonad.bind( n => n*3);\n\nvar n = nMonad.apply();\n//value of n is 6\nconsole.log(n);\n//=> 6\n```\n\n## License\n\nMIT © [Soham Kamani](http://sohamkamani.com)\n',
+64 silly install resolved     readmeFilename: 'README.md',
+64 silly install resolved     gitHead: 'e2275974c1d1cbbd2526bc4423cdb128690d638a',
+64 silly install resolved     bugs: { url: 'https://github.com/sohamkamani/Monadify/issues' },
+64 silly install resolved     homepage: 'https://github.com/sohamkamani/Monadify#readme',
+64 silly install resolved     _id: 'monadify@0.3.2',
+64 silly install resolved     _shasum: '51843f3821ddc0e5e16d8855141c1464a8ca7715',
+64 silly install resolved     _from: 'monadify@*' } ]
+65 info install monadify@0.3.2 into /Users/sohamchetan/Documents/experiments/cordova-sample
+66 info installOne monadify@0.3.2
+67 verbose installOne of monadify to /Users/sohamchetan/Documents/experiments/cordova-sample not in flight; installing
+68 verbose lock using /Users/sohamchetan/.npm/_locks/monadify-20a672d8310e9858.lock for /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+69 silly install write writing monadify 0.3.2 to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+70 verbose unbuild node_modules/monadify
+71 silly gentlyRm /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify is being purged from base /Users/sohamchetan/Documents/experiments/cordova-sample
+72 verbose gentlyRm don't care about contents; nuking /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+73 verbose tar unpack /Users/sohamchetan/.npm/monadify/0.3.2/package.tgz
+74 verbose tar unpacking to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+75 silly gentlyRm /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify is being purged
+76 verbose gentlyRm don't care about contents; nuking /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
 77 silly gunzTarPerm modes [ '755', '644' ]
 78 silly gunzTarPerm extractEntry package.json
-79 silly gunzTarPerm extractEntry index.js
-80 silly gunzTarPerm extractEntry license
-81 silly gunzTarPerm extractEntry readme.md
-82 verbose write writing to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign/package.json
-83 info preinstall object-assign@4.0.1
-84 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign/package.json
-85 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign/package.json
-86 silly install resolved []
-87 verbose about to build /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-88 info build /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-89 info linkStuff object-assign@4.0.1
-90 silly linkStuff object-assign@4.0.1 has /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules as its parent node_modules
-91 verbose linkBins object-assign@4.0.1
-92 verbose linkMans object-assign@4.0.1
-93 verbose rebuildBundles object-assign@4.0.1
-94 info install object-assign@4.0.1
-95 info postinstall object-assign@4.0.1
-96 verbose unlock done using /Users/sohamchetan/.npm/_locks/object-assign-d3003c7d2f46babd.lock for /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/object-assign
-97 verbose validateInstall loading /Users/sohamchetan/Documents/experiments/cordova-sample/package.json for validation
-98 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
-98 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
-98 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
-98 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
-98 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-98 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-98 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-98 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-98 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-98 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
-98 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
-99 verbose cwd /Users/sohamchetan/Documents/experiments/cordova-sample
-100 error Darwin 14.5.0
-101 error argv "node" "/usr/local/bin/npm" "install" "--save" "object-assign"
-102 error node v0.12.4
-103 error npm  v2.10.1
-104 error code EPEERINVALID
-105 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
-105 error peerinvalid Peer react-tap-event-plugin@0.1.8 wants react@^0.14.0-0 || ~0.13.x || ~0.12.x
-105 error peerinvalid Peer material-ui@0.12.3 wants react@~0.13
-106 verbose exit [ 1, true ]
+79 silly gunzTarPerm extractEntry .npmignore
+80 silly gunzTarPerm extractEntry README.md
+81 silly gunzTarPerm extractEntry index.js
+82 silly gunzTarPerm extractEntry test.js
+83 silly gunzTarPerm extractEntry lib/apply.js
+84 silly gunzTarPerm extractEntry lib/attempt.js
+85 silly gunzTarPerm extractEntry lib/bind.js
+86 silly gunzTarPerm extractEntry lib/get.js
+87 silly gunzTarPerm extractEntry lib/send.js
+88 silly gunzTarPerm extractEntry lib/use.js
+89 verbose write writing to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/package.json
+90 info preinstall monadify@0.3.2
+91 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/package.json
+92 silly prepareForInstallMany adding clone@^1.0.2 from monadify dependencies
+93 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/package.json
+94 silly cache add args [ 'clone@^1.0.2', null ]
+95 verbose cache add spec clone@^1.0.2
+96 silly cache add parsed spec { raw: 'clone@^1.0.2',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'clone',
+96 silly cache add   rawSpec: '^1.0.2',
+96 silly cache add   spec: '>=1.0.2 <2.0.0',
+96 silly cache add   type: 'range' }
+97 silly addNamed clone@>=1.0.2 <2.0.0
+98 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for clone
+99 silly addNameRange { name: 'clone', range: '>=1.0.2 <2.0.0', hasData: false }
+100 silly mapToRegistry name clone
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/clone
+104 verbose addNameRange registry:https://registry.npmjs.org/clone not in flight; fetching
+105 verbose request uri https://registry.npmjs.org/clone
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 10:07:01 PM
+108 verbose request using bearer token for auth
+109 verbose etag "9RKA1SAUCD7N4XO45MXFEIJOI"
+110 http request GET https://registry.npmjs.org/clone
+111 http 200 https://registry.npmjs.org/clone
+112 silly get cb [ 200,
+112 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+112 silly get     etag: '"31O7TSOQEE2XCWZKT8HZU5M46"',
+112 silly get     'content-type': 'application/json',
+112 silly get     'cache-control': 'max-age=60',
+112 silly get     'content-length': '55547',
+112 silly get     'accept-ranges': 'bytes',
+112 silly get     date: 'Tue, 03 Nov 2015 16:37:01 GMT',
+112 silly get     via: '1.1 varnish',
+112 silly get     connection: 'keep-alive',
+112 silly get     'x-served-by': 'cache-sin6922-SIN',
+112 silly get     'x-cache': 'MISS',
+112 silly get     'x-cache-hits': '0',
+112 silly get     'x-timer': 'S1446568621.234052,VS0,VE513',
+112 silly get     vary: 'Accept' } ]
+113 verbose get saving clone to /Users/sohamchetan/.npm/registry.npmjs.org/clone/.cache.json
+114 silly addNameRange number 2 { name: 'clone', range: '>=1.0.2 <2.0.0', hasData: true }
+115 silly addNameRange versions [ 'clone',
+115 silly addNameRange   [ '0.0.0',
+115 silly addNameRange     '0.0.1',
+115 silly addNameRange     '0.0.2',
+115 silly addNameRange     '0.0.3',
+115 silly addNameRange     '0.0.4',
+115 silly addNameRange     '0.0.5',
+115 silly addNameRange     '0.0.6',
+115 silly addNameRange     '0.0.7',
+115 silly addNameRange     '0.1.0',
+115 silly addNameRange     '0.1.1',
+115 silly addNameRange     '0.1.2',
+115 silly addNameRange     '0.1.3',
+115 silly addNameRange     '0.1.4',
+115 silly addNameRange     '0.1.5',
+115 silly addNameRange     '0.1.6',
+115 silly addNameRange     '0.1.7',
+115 silly addNameRange     '0.1.8',
+115 silly addNameRange     '0.1.9',
+115 silly addNameRange     '0.1.10',
+115 silly addNameRange     '0.1.11',
+115 silly addNameRange     '0.1.12',
+115 silly addNameRange     '0.1.13',
+115 silly addNameRange     '0.1.14',
+115 silly addNameRange     '0.1.15',
+115 silly addNameRange     '0.1.16',
+115 silly addNameRange     '0.1.17',
+115 silly addNameRange     '0.1.18',
+115 silly addNameRange     '0.2.0',
+115 silly addNameRange     '0.1.19',
+115 silly addNameRange     '1.0.0',
+115 silly addNameRange     '1.0.1',
+115 silly addNameRange     '1.0.2' ] ]
+116 silly addNamed clone@1.0.2
+117 verbose addNamed "1.0.2" is a plain semver version for clone
+118 silly cache afterAdd clone@1.0.2
+119 verbose afterAdd /Users/sohamchetan/.npm/clone/1.0.2/package/package.json not in flight; writing
+120 verbose afterAdd /Users/sohamchetan/.npm/clone/1.0.2/package/package.json written
+121 silly install resolved [ { name: 'clone',
+121 silly install resolved     description: 'deep cloning of objects and arrays',
+121 silly install resolved     tags: [ 'clone', 'object', 'array', 'function', 'date' ],
+121 silly install resolved     version: '1.0.2',
+121 silly install resolved     repository: { type: 'git', url: 'git://github.com/pvorb/node-clone.git' },
+121 silly install resolved     bugs: { url: 'https://github.com/pvorb/node-clone/issues' },
+121 silly install resolved     main: 'clone.js',
+121 silly install resolved     author:
+121 silly install resolved      { name: 'Paul Vorbach',
+121 silly install resolved        email: 'paul@vorba.ch',
+121 silly install resolved        url: 'http://paul.vorba.ch/' },
+121 silly install resolved     contributors:
+121 silly install resolved      [ [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object],
+121 silly install resolved        [Object] ],
+121 silly install resolved     license: 'MIT',
+121 silly install resolved     engines: { node: '>=0.8' },
+121 silly install resolved     dependencies: {},
+121 silly install resolved     devDependencies: { nodeunit: '~0.9.0' },
+121 silly install resolved     optionalDependencies: {},
+121 silly install resolved     scripts: { test: 'nodeunit test.js' },
+121 silly install resolved     readme: '# clone\n\n[![build status](https://secure.travis-ci.org/pvorb/node-clone.png)](http://travis-ci.org/pvorb/node-clone)\n\n[![info badge](https://nodei.co/npm/clone.png?downloads=true&downloadRank=true&stars=true)](http://npm-stat.com/charts.html?package=clone)\n\noffers foolproof _deep cloning_ of objects, arrays, numbers, strings etc. in JavaScript.\n\n\n## Installation\n\n    npm install clone\n\n(It also works with browserify, ender or standalone.)\n\n\n## Example\n\n~~~ javascript\nvar clone = require(\'clone\');\n\nvar a, b;\n\na = { foo: { bar: \'baz\' } };  // initial value of a\n\nb = clone(a);                 // clone a -> b\na.foo.bar = \'foo\';            // change a\n\nconsole.log(a);               // show a\nconsole.log(b);               // show b\n~~~\n\nThis will print:\n\n~~~ javascript\n{ foo: { bar: \'foo\' } }\n{ foo: { bar: \'baz\' } }\n~~~\n\n**clone** masters cloning simple objects (even with custom prototype), arrays,\nDate objects, and RegExp objects. Everything is cloned recursively, so that you\ncan clone dates in arrays in objects, for example.\n\n\n## API\n\n`clone(val, circular, depth)`\n\n  * `val` -- the value that you want to clone, any type allowed\n  * `circular` -- boolean\n\n    Call `clone` with `circular` set to `false` if you are certain that `obj`\n    contains no circular references. This will give better performance if needed.\n    There is no error if `undefined` or `null` is passed as `obj`.\n  * `depth` -- depth to which the object is to be cloned (optional,\n    defaults to infinity)\n\n`clone.clonePrototype(obj)`\n\n  * `obj` -- the object that you want to clone\n\nDoes a prototype clone as\n[described by Oran Looney](http://oranlooney.com/functional-javascript/).\n\n\n## Circular References\n\n~~~ javascript\nvar a, b;\n\na = { hello: \'world\' };\n\na.myself = a;\nb = clone(a);\n\nconsole.log(b);\n~~~\n\nThis will print:\n\n~~~ javascript\n{ hello: "world", myself: [Circular] }\n~~~\n\nSo, `b.myself` points to `b`, not `a`. Neat!\n\n\n## Test\n\n    npm test\n\n\n## Caveat\n\nSome special objects like a socket or `process.stdout`/`stderr` are known to not\nbe cloneable. If you find other objects that cannot be cloned, please [open an\nissue](https://github.com/pvorb/node-clone/issues/new).\n\n\n## Bugs and Issues\n\nIf you encounter any bugs or issues, feel free to [open an issue at\ngithub](https://github.com/pvorb/node-clone/issues) or send me an email to\n<paul@vorba.ch>. I also always like to hear from you, if you’re using my code.\n\n## License\n\nCopyright © 2011-2015 [Paul Vorbach](http://paul.vorba.ch/) and\n[contributors](https://github.com/pvorb/node-clone/graphs/contributors).\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the “Software”), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+121 silly install resolved     readmeFilename: 'README.md',
+121 silly install resolved     homepage: 'https://github.com/pvorb/node-clone#readme',
+121 silly install resolved     _id: 'clone@1.0.2',
+121 silly install resolved     _shasum: '260b7a99ebb1edfe247538175f783243cb19d149',
+121 silly install resolved     _resolved: 'https://registry.npmjs.org/clone/-/clone-1.0.2.tgz',
+121 silly install resolved     _from: 'clone@>=1.0.2 <2.0.0' } ]
+122 info install clone@1.0.2 into /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+123 info installOne clone@1.0.2
+124 verbose installOne of clone to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify not in flight; installing
+125 verbose lock using /Users/sohamchetan/.npm/_locks/clone-12c3545920b90683.lock for /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+126 silly install write writing clone 1.0.2 to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+127 verbose unbuild node_modules/monadify/node_modules/clone
+128 silly gentlyRm /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone is being purged from base /Users/sohamchetan/Documents/experiments/cordova-sample
+129 verbose gentlyRm don't care about contents; nuking /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+130 verbose tar unpack /Users/sohamchetan/.npm/clone/1.0.2/package.tgz
+131 verbose tar unpacking to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+132 silly gentlyRm /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone is being purged
+133 verbose gentlyRm don't care about contents; nuking /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+137 silly gunzTarPerm extractEntry .npmignore
+138 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+139 silly gunzTarPerm extractEntry README.md
+140 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+141 silly gunzTarPerm extractEntry LICENSE
+142 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+143 silly gunzTarPerm extractEntry test.js
+144 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry clone.js
+146 silly gunzTarPerm modified mode [ 'clone.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry .travis.yml
+148 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+149 silly gunzTarPerm extractEntry test-apart-ctx.html
+150 silly gunzTarPerm modified mode [ 'test-apart-ctx.html', 438, 420 ]
+151 silly gunzTarPerm extractEntry test.html
+152 silly gunzTarPerm modified mode [ 'test.html', 438, 420 ]
+153 verbose write writing to /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone/package.json
+154 info preinstall clone@1.0.2
+155 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone/package.json
+156 verbose readDependencies loading dependencies from /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone/package.json
+157 silly install resolved []
+158 verbose about to build /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+159 info build /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+160 info linkStuff clone@1.0.2
+161 silly linkStuff clone@1.0.2 has /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules as its parent node_modules
+162 verbose linkBins clone@1.0.2
+163 verbose linkMans clone@1.0.2
+164 verbose rebuildBundles clone@1.0.2
+165 info install clone@1.0.2
+166 info postinstall clone@1.0.2
+167 verbose unlock done using /Users/sohamchetan/.npm/_locks/clone-12c3545920b90683.lock for /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify/node_modules/clone
+168 verbose about to build /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+169 info build /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+170 info linkStuff monadify@0.3.2
+171 silly linkStuff monadify@0.3.2 has /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules as its parent node_modules
+172 verbose linkBins monadify@0.3.2
+173 verbose linkMans monadify@0.3.2
+174 verbose rebuildBundles monadify@0.3.2
+175 verbose rebuildBundles [ 'clone' ]
+176 info install monadify@0.3.2
+177 info postinstall monadify@0.3.2
+178 verbose unlock done using /Users/sohamchetan/.npm/_locks/monadify-20a672d8310e9858.lock for /Users/sohamchetan/Documents/experiments/cordova-sample/node_modules/monadify
+179 verbose validateInstall loading /Users/sohamchetan/Documents/experiments/cordova-sample/package.json for validation
+180 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+180 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+180 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+180 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+180 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+180 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+180 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+180 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+180 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+180 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+180 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+181 verbose cwd /Users/sohamchetan/Documents/experiments/cordova-sample
+182 error Darwin 14.5.0
+183 error argv "node" "/usr/local/bin/npm" "install" "--save" "monadify"
+184 error node v0.12.4
+185 error npm  v2.10.1
+186 error code EPEERINVALID
+187 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+187 error peerinvalid Peer react-tap-event-plugin@0.1.8 wants react@^0.14.0-0 || ~0.13.x || ~0.12.x
+187 error peerinvalid Peer material-ui@0.12.3 wants react@~0.13
+188 verbose exit [ 1, true ]
